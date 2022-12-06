@@ -1,0 +1,82 @@
+{
+	"alignment": [{
+			"rowid": 1,
+			"value": "Good",
+			"modified": "2021-12-04T16:03:00.724971-08:00"
+		},
+		{
+			"rowid": 2,
+			"value": "Evil",
+			"modified": "2021-12-04T16:03:00.724971-08:00"
+		},
+		{
+			"rowid": 3,
+			"value": "Neutral",
+			"modified": "2021-12-04T16:03:00.724971-08:00"
+		}
+	],
+	"rarity": [{
+			"rowid": 1,
+			"value": "Unique",
+			"modified": "2021-12-04T16:03:00.788876-08:00"
+		},
+		{
+			"rowid": 2,
+			"value": "Uncommon",
+			"modified": "2021-12-04T16:03:00.788876-08:00"
+		},
+		{
+			"rowid": 3,
+			"value": "Common",
+			"modified": "2021-12-04T16:03:00.788876-08:00"
+		},
+		{
+			"rowid": 4,
+			"value": "Event",
+			"modified": "2021-12-04T16:03:00.788876-08:00"
+		}
+	],
+	"size": [{
+			"rowid": 1,
+			"value": "Tiny",
+			"modified": "2021-12-04T16:03:00.790523-08:00"
+		},
+		{
+			"rowid": 2,
+			"value": "Small",
+			"modified": "2021-12-04T16:03:00.790523-08:00"
+		},
+		{
+			"rowid": 3,
+			"value": "Medium",
+			"modified": "2021-12-04T16:03:00.790523-08:00"
+		},
+		{
+			"rowid": 4,
+			"value": "Large",
+			"modified": "2021-12-04T16:03:00.790523-08:00"
+		},
+		{
+			"rowid": 5,
+			"value": "Huge",
+			"modified": "2021-12-04T16:03:00.790523-08:00"
+		}
+	],
+	"version": [{
+			"tablename": "alignment",
+			"number": 0
+		},
+		{
+			"tablename": "rarity",
+			"number": 0
+		},
+		{
+			"tablename": "size",
+			"number": 0
+		},
+		{
+			"tablename": "version",
+			"number": 0
+		}
+	]
+}

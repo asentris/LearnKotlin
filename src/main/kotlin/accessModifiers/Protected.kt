@@ -1,0 +1,4 @@
+package accessModifiers
+
+class Protected {
+}
