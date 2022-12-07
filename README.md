@@ -1,0 +1,74 @@
+### Shows examples of and explains different features of the Kotlin programming language
+
+- Access modifiers
+    - `internal`, `private`, `protected`, `public`
+- Callbacks
+    - synchronous
+    - asynchronous with anonymous class
+    - asynchronous with closure
+- Class types
+    - `abstract`, `data`, `enum`
+    - inheritance
+        - delegation, composition, downcasting, inheritance, polymorphism, upcasting
+    - `interface` (not a class)
+- Constructors
+    - `init`, secondary `constructor`
+    - command line, default, fixed, mutable, named, non-accessible, and `vararg` arguments
+    - overloading
+- Containers
+    - arrays
+    - destructuring declarations
+    - lists, mutableLists
+        - add, all, any, chunked, compareBy, count, distinct, drop, dropLast, dropWhile,
+        - filter, filterIndexed, filterNot, filterNotNull, find, flatMap, flatten, fold,
+        - forEach, getOrNull, joinToString, map, mapIndexed, minByOrNull, none, partition,
+        - reduce, reversed, slice, sorted, sortedBy, sortedByDescending, sortWith, sum,
+        - take, takeLast, takeLastWhile, zip, zipWithNext
+    - maps
+        - entries, filterKeys, filterValues, get, getOrDefault, getOrElse, getOrPut,
+        - getValue, keys, map, mapKeys, mapValues, values, withDefault
+    - sets
+        - intersect, setOf, subtract, union
+- Coroutines
+    - exception handler
+        - uncaught exceptions propagate
+        - caught exceptions
+        - cancelled coroutines
+        - coroutine suspension
+    - flow
+        - collecting flows, collecting and consuming channels
+        - mapping flows, changing flow context
+        - bad and good error handling
+    - recursive functions
+    - sharedFlow
+    - stateFlow
+- Data types
+    - Byte, Short, Int, Long, Float, Double, Boolean, Char, String
+    - extension properties
+    - generic types, nullables, strings
+- Expressions
+    - `if` / `else`, `in`, `repeat`, `when`
+- Functions
+    - scope functions: `also`, `apply`, `let`, `run`, `with`
+    - anonymous/lambda, extension, generic, parameter, recursion, returned, and variable functions
+- Loops
+    - `break` / `continue`, `do` `while`, `for`, labels, `while`
+- Operators
+    - assignment
+        - `+=`, `-=`, `*=`, `/=`, `%=`
+        - `++`, `--`
+    - logical
+        - `==`, `!=`, `<`, `>`, `<=`, `>=`, `&&`, `||`
+    - mathematical
+        - `+`, `-`, `*`, `/`, `%`
+    - null safety
+        - `!!`, `?.`, `?:`
+    - end of declaration: `;`, range: `..`, type declaration: `:`, label: `@`,
+    - lambda / when: `->`, parameter substitution: `_`, reference: `::`
+- Property accessors: get / set
+- Sequences
+    - eager vs lazy evaluation
+    - generating sequences
+    - intermediate vs terminal operations
+- Serializable / JSON parsing
+- Statements: `for`
